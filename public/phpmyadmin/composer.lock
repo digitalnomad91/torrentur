@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "638fafcc307023b520b95456db7cb210",
@@ -417,16 +417,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.2.16",
+            "version": "6.2.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "3527098537e6061b752fc261a44563489c927889"
+                "reference": "ac6e92fccc7d9383dfd787056831349621b1aca2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/3527098537e6061b752fc261a44563489c927889",
-                "reference": "3527098537e6061b752fc261a44563489c927889",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/ac6e92fccc7d9383dfd787056831349621b1aca2",
+                "reference": "ac6e92fccc7d9383dfd787056831349621b1aca2",
                 "shasum": ""
             },
             "require": {
@@ -475,7 +475,10 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2018-02-19T15:01:27+00:00"
+            "support": {
+                "source": "https://github.com/tecnickcom/TCPDF/tree/master"
+            },
+            "time": "2018-09-14T15:26:29+00:00"
         }
     ],
     "packages-dev": [
@@ -2091,5 +2094,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "5.5"
-    }
+    },
+    "plugin-api-version": "2.3.0"
 }
